@@ -17,8 +17,8 @@ lineReader
    })
    .on('close', process);
 function process() {
-   // for (let i = 0; i < team.programmers.length; i++) {
-   //   team.programmers[i].printStats();
-   // }
+   for (let i = 0; i < team.programmers.length; i++) {
+     team.programmers[i].printStats();
+   }
    console.log("There are " + team.programmerCount() + " programmers");
 }
